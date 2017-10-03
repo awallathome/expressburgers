@@ -2,7 +2,7 @@ $(document).ready(function() {
   // Getting a reference to the input field where user adds a new burger
   var $newItemInput = $("input.new-item");
   // Our new burgers will go inside the todoContainer
-  var $todoContainer = $(".burger-container");
+  var $burgerContainer = $(".burger-container");
   // Adding event listeners for deleting, editing, and adding burgers
   $(document).on("click", "button.delete", deleteburger);
   $(document).on("click", "button.complete", toggleComplete);
